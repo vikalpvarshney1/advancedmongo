@@ -1,0 +1,749 @@
+> db.user.find({budget: {$gte:"$3000"}}).pretty()
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015b2"),
+        "movies" : "Empire of Silver (Bai yin di guo)",
+        "productionyear" : 2012,
+        "budget" : "$9202.02",
+        "moviegenre" : "Drama|Romance"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015b3"),
+        "movies" : "Go Get Some Rosemary (Daddy Longlegs)",
+        "productionyear" : 1966,
+        "budget" : "$3244.43",
+        "moviegenre" : "Comedy|Drama"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015b5"),
+        "movies" : "Long Ride Home, The",
+        "productionyear" : 1983,
+        "budget" : "$7945.74",
+        "moviegenre" : "Romance|Western"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015b6"),
+        "movies" : "Runner Runner",
+        "productionyear" : 1994,
+        "budget" : "$4059.90",
+        "moviegenre" : "Crime|Drama|Thriller"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015b7"),
+        "movies" : "Mad Max Beyond Thunderdome",
+        "productionyear" : 2012,
+        "budget" : "$9004.14",
+        "moviegenre" : "Action|Adventure|Sci-Fi"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015b8"),
+        "movies" : "Starfighters, The",
+        "productionyear" : 1998,
+        "budget" : "$8917.96",
+        "moviegenre" : "Drama"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015b9"),
+        "movies" : "Thing from Another World, The",
+        "productionyear" : 1988,
+        "budget" : "$4586.47",
+        "moviegenre" : "Horror|Sci-Fi"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015ba"),
+        "movies" : "Hatfields & McCoys",
+        "productionyear" : 1987,
+        "budget" : "$7798.28",
+        "moviegenre" : "Drama|Romance"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015bb"),
+        "movies" : "Destiny Turns on the Radio",
+        "productionyear" : 2005,
+        "budget" : "$5337.75",
+        "moviegenre" : "Comedy"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015bc"),
+        "movies" : "Wrong Guy, The",
+        "productionyear" : 2010,
+        "budget" : "$4310.42",
+        "moviegenre" : "Comedy|Romance|Thriller"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015bd"),
+        "movies" : "Cat-Women of the Moon (a.k.a. Rocket to the Moon)",
+        "productionyear" : 2004,
+        "budget" : "$7970.11",
+        "moviegenre" : "Adventure|Sci-Fi"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015be"),
+        "movies" : "Blade of the Ripper",
+        "productionyear" : 1994,
+        "budget" : "$6758.00",
+        "moviegenre" : "Drama|Horror|Mystery|Romance|Thriller"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015bf"),
+        "movies" : "Blackmail",
+        "productionyear" : 1998,
+        "budget" : "$7630.68",
+        "moviegenre" : "Drama|Thriller"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015c0"),
+        "movies" : "Everybody's Fine (Stanno tutti bene)",
+        "productionyear" : 1992,
+        "budget" : "$8213.73",
+        "moviegenre" : "Comedy|Drama"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015c2"),
+        "movies" : "Chuck Norris vs Communism",
+        "productionyear" : 2000,
+        "budget" : "$7121.28",
+        "moviegenre" : "Documentary"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015c3"),
+        "movies" : "Barry Lyndon",
+        "productionyear" : 2009,
+        "budget" : "$6641.06",
+        "moviegenre" : "Drama|Romance|War"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015c4"),
+        "movies" : "Third Miracle, The",
+        "productionyear" : 1961,
+        "budget" : "$9665.48",
+        "moviegenre" : "Drama"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015c5"),
+        "movies" : "Moon in the Gutter, The (La lune dans le caniveau)",
+        "productionyear" : 2011,
+        "budget" : "$9909.71",
+        "moviegenre" : "Drama"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015c6"),
+        "movies" : "Seven Ways from Sundown",
+        "productionyear" : 2010,
+        "budget" : "$7770.16",
+        "moviegenre" : "Action|Adventure|Western"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015c7"),
+        "movies" : "Maltese Falcon, The (a.k.a. Dangerous Female)",
+        "productionyear" : 2011,
+        "budget" : "$8990.50",
+        "moviegenre" : "Mystery"
+}
+Type "it" for more
+> db.user.find({budget: {$lt:"$3000"}}).pretty()
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015b4"),
+        "movies" : "American Winter",
+        "productionyear" : 1987,
+        "budget" : "$1788.05",
+        "moviegenre" : "Documentary|Drama"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015c1"),
+        "movies" : "Adventures of Buckaroo Banzai Across the 8th Dimension, The",
+        "productionyear" : 2002,
+        "budget" : "$1575.28",
+        "moviegenre" : "Adventure|Comedy|Sci-Fi"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015c9"),
+        "movies" : "Arthur and the Revenge of Maltazard (Arthur et la vengeance de Maltazard)",
+        "productionyear" : 2002,
+        "budget" : "$1330.26",
+        "moviegenre" : "Animation|Children|Fantasy"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015d3"),
+        "movies" : "Possessed",
+        "productionyear" : 1990,
+        "budget" : "$2313.47",
+        "moviegenre" : "Drama|Romance"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015d6"),
+        "movies" : "Blind Dating",
+        "productionyear" : 2008,
+        "budget" : "$1606.01",
+        "moviegenre" : "Comedy|Romance"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015d9"),
+        "movies" : "Ant Bully, The",
+        "productionyear" : 2003,
+        "budget" : "$2692.04",
+        "moviegenre" : "Adventure|Animation|Children|Comedy|Fantasy|IMAX"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015e1"),
+        "movies" : "Silent Trigger",
+        "productionyear" : 2010,
+        "budget" : "$1480.62",
+        "moviegenre" : "Action|Drama"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015e5"),
+        "movies" : "Scorpio Rising",
+        "productionyear" : 2012,
+        "budget" : "$1603.76",
+        "moviegenre" : "(no genres listed)"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015ea"),
+        "movies" : "Crusades, The",
+        "productionyear" : 2009,
+        "budget" : "$2586.77",
+        "moviegenre" : "Adventure|Drama|War"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015ed"),
+        "movies" : "Attack Force Z (a.k.a. The Z Men) (Z-tzu te kung tui)",
+        "productionyear" : 2011,
+        "budget" : "$1847.25",
+        "moviegenre" : "War"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015f4"),
+        "movies" : "Zombie Strippers!",
+        "productionyear" : 2000,
+        "budget" : "$2241.89",
+        "moviegenre" : "Comedy|Horror"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015fd"),
+        "movies" : "No Country for Old Men",
+        "productionyear" : 2011,
+        "budget" : "$1585.88",
+        "moviegenre" : "Crime|Drama"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d001600"),
+        "movies" : "Hideaway",
+        "productionyear" : 1995,
+        "budget" : "$1534.96",
+        "moviegenre" : "Drama"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d001601"),
+        "movies" : "Brigham City",
+        "productionyear" : 1992,
+        "budget" : "$1328.07",
+        "moviegenre" : "Crime|Drama|Mystery"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d00160b"),
+        "movies" : "Four Rooms",
+        "productionyear" : 2000,
+        "budget" : "$2563.99",
+        "moviegenre" : "Comedy"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d001612"),
+        "movies" : "Om Jai Jagadish",
+        "productionyear" : 2003,
+        "budget" : "$2369.94",
+        "moviegenre" : "Drama"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d001614"),
+        "movies" : "Beautiful",
+        "productionyear" : 1992,
+        "budget" : "$1071.21",
+        "moviegenre" : "Comedy|Drama"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d001616"),
+        "movies" : "Place Called Chiapas, A",
+        "productionyear" : 2012,
+        "budget" : "$1147.82",
+        "moviegenre" : "Documentary"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d00161c"),
+        "movies" : "The Brave Little Toaster Goes to Mars",
+        "productionyear" : 2011,
+        "budget" : "$2478.26",
+        "moviegenre" : "Animation|Children"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d00161e"),
+        "movies" : "Megiddo: The Omega Code 2",
+        "productionyear" : 2011,
+        "budget" : "$1073.89",
+        "moviegenre" : "Action|Adventure|Fantasy|Sci-Fi|Thriller"
+}
+Type "it" for more
+> db.user.find({budget: {$lte:"$3000"}}).pretty()
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015b4"),
+        "movies" : "American Winter",
+        "productionyear" : 1987,
+        "budget" : "$1788.05",
+        "moviegenre" : "Documentary|Drama"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015c1"),
+        "movies" : "Adventures of Buckaroo Banzai Across the 8th Dimension, The",
+        "productionyear" : 2002,
+        "budget" : "$1575.28",
+        "moviegenre" : "Adventure|Comedy|Sci-Fi"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015c9"),
+        "movies" : "Arthur and the Revenge of Maltazard (Arthur et la vengeance de Maltazard)",
+        "productionyear" : 2002,
+        "budget" : "$1330.26",
+        "moviegenre" : "Animation|Children|Fantasy"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015d3"),
+        "movies" : "Possessed",
+        "productionyear" : 1990,
+        "budget" : "$2313.47",
+        "moviegenre" : "Drama|Romance"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015d6"),
+        "movies" : "Blind Dating",
+        "productionyear" : 2008,
+        "budget" : "$1606.01",
+        "moviegenre" : "Comedy|Romance"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015d9"),
+        "movies" : "Ant Bully, The",
+        "productionyear" : 2003,
+        "budget" : "$2692.04",
+        "moviegenre" : "Adventure|Animation|Children|Comedy|Fantasy|IMAX"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015e1"),
+        "movies" : "Silent Trigger",
+        "productionyear" : 2010,
+        "budget" : "$1480.62",
+        "moviegenre" : "Action|Drama"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015e5"),
+        "movies" : "Scorpio Rising",
+        "productionyear" : 2012,
+        "budget" : "$1603.76",
+        "moviegenre" : "(no genres listed)"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015ea"),
+        "movies" : "Crusades, The",
+        "productionyear" : 2009,
+        "budget" : "$2586.77",
+        "moviegenre" : "Adventure|Drama|War"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015ed"),
+        "movies" : "Attack Force Z (a.k.a. The Z Men) (Z-tzu te kung tui)",
+        "productionyear" : 2011,
+        "budget" : "$1847.25",
+        "moviegenre" : "War"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015f4"),
+        "movies" : "Zombie Strippers!",
+        "productionyear" : 2000,
+        "budget" : "$2241.89",
+        "moviegenre" : "Comedy|Horror"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015fd"),
+        "movies" : "No Country for Old Men",
+        "productionyear" : 2011,
+        "budget" : "$1585.88",
+        "moviegenre" : "Crime|Drama"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d001600"),
+        "movies" : "Hideaway",
+        "productionyear" : 1995,
+        "budget" : "$1534.96",
+        "moviegenre" : "Drama"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d001601"),
+        "movies" : "Brigham City",
+        "productionyear" : 1992,
+        "budget" : "$1328.07",
+        "moviegenre" : "Crime|Drama|Mystery"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d00160b"),
+        "movies" : "Four Rooms",
+        "productionyear" : 2000,
+        "budget" : "$2563.99",
+        "moviegenre" : "Comedy"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d001612"),
+        "movies" : "Om Jai Jagadish",
+        "productionyear" : 2003,
+        "budget" : "$2369.94",
+        "moviegenre" : "Drama"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d001614"),
+        "movies" : "Beautiful",
+        "productionyear" : 1992,
+        "budget" : "$1071.21",
+        "moviegenre" : "Comedy|Drama"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d001616"),
+        "movies" : "Place Called Chiapas, A",
+        "productionyear" : 2012,
+        "budget" : "$1147.82",
+        "moviegenre" : "Documentary"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d00161c"),
+        "movies" : "The Brave Little Toaster Goes to Mars",
+        "productionyear" : 2011,
+        "budget" : "$2478.26",
+        "moviegenre" : "Animation|Children"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d00161e"),
+        "movies" : "Megiddo: The Omega Code 2",
+        "productionyear" : 2011,
+        "budget" : "$1073.89",
+        "moviegenre" : "Action|Adventure|Fantasy|Sci-Fi|Thriller"
+}
+Type "it" for more
+> db.user.find({$and: [{productionyear: {$nin: [2000]}},{budget: {$gt:"$5000"}} ]}).pretty()
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015b2"),
+        "movies" : "Empire of Silver (Bai yin di guo)",
+        "productionyear" : 2012,
+        "budget" : "$9202.02",
+        "moviegenre" : "Drama|Romance"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015b5"),
+        "movies" : "Long Ride Home, The",
+        "productionyear" : 1983,
+        "budget" : "$7945.74",
+        "moviegenre" : "Romance|Western"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015b7"),
+        "movies" : "Mad Max Beyond Thunderdome",
+        "productionyear" : 2012,
+        "budget" : "$9004.14",
+        "moviegenre" : "Action|Adventure|Sci-Fi"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015b8"),
+        "movies" : "Starfighters, The",
+        "productionyear" : 1998,
+        "budget" : "$8917.96",
+        "moviegenre" : "Drama"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015ba"),
+        "movies" : "Hatfields & McCoys",
+        "productionyear" : 1987,
+        "budget" : "$7798.28",
+        "moviegenre" : "Drama|Romance"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015bb"),
+        "movies" : "Destiny Turns on the Radio",
+        "productionyear" : 2005,
+        "budget" : "$5337.75",
+        "moviegenre" : "Comedy"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015bd"),
+        "movies" : "Cat-Women of the Moon (a.k.a. Rocket to the Moon)",
+        "productionyear" : 2004,
+        "budget" : "$7970.11",
+        "moviegenre" : "Adventure|Sci-Fi"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015be"),
+        "movies" : "Blade of the Ripper",
+        "productionyear" : 1994,
+        "budget" : "$6758.00",
+        "moviegenre" : "Drama|Horror|Mystery|Romance|Thriller"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015bf"),
+        "movies" : "Blackmail",
+        "productionyear" : 1998,
+        "budget" : "$7630.68",
+        "moviegenre" : "Drama|Thriller"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015c0"),
+        "movies" : "Everybody's Fine (Stanno tutti bene)",
+        "productionyear" : 1992,
+        "budget" : "$8213.73",
+        "moviegenre" : "Comedy|Drama"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015c3"),
+        "movies" : "Barry Lyndon",
+        "productionyear" : 2009,
+        "budget" : "$6641.06",
+        "moviegenre" : "Drama|Romance|War"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015c4"),
+        "movies" : "Third Miracle, The",
+        "productionyear" : 1961,
+        "budget" : "$9665.48",
+        "moviegenre" : "Drama"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015c5"),
+        "movies" : "Moon in the Gutter, The (La lune dans le caniveau)",
+        "productionyear" : 2011,
+        "budget" : "$9909.71",
+        "moviegenre" : "Drama"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015c6"),
+        "movies" : "Seven Ways from Sundown",
+        "productionyear" : 2010,
+        "budget" : "$7770.16",
+        "moviegenre" : "Action|Adventure|Western"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015c7"),
+        "movies" : "Maltese Falcon, The (a.k.a. Dangerous Female)",
+        "productionyear" : 2011,
+        "budget" : "$8990.50",
+        "moviegenre" : "Mystery"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015c8"),
+        "movies" : "Boy",
+        "productionyear" : 2005,
+        "budget" : "$8730.82",
+        "moviegenre" : "Comedy|Drama"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015ca"),
+        "movies" : "Little Engine That Could, The",
+        "productionyear" : 1991,
+        "budget" : "$5784.27",
+        "moviegenre" : "Animation|Children"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015cb"),
+        "movies" : "What a Girl Wants",
+        "productionyear" : 2001,
+        "budget" : "$5281.55",
+        "moviegenre" : "Comedy|Drama|Romance"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015cd"),
+        "movies" : "Peter's Friends",
+        "productionyear" : 1998,
+        "budget" : "$9968.96",
+        "moviegenre" : "Comedy|Drama"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015ce"),
+        "movies" : "Castle Keep",
+        "productionyear" : 1997,
+        "budget" : "$9678.02",
+        "moviegenre" : "Drama|War"
+}
+Type "it" for more
+> db.user.find({$and: [{productionyear: {budget: {$gt: "$2000"}}},{budget: {$lt:"$5000"}} ]}).pretty()
+> db.user.find({$and: [ {budget: {$gt: "$2000"}},{budget: {$lt:"$5000"}} ]}).pretty()
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015b3"),
+        "movies" : "Go Get Some Rosemary (Daddy Longlegs)",
+        "productionyear" : 1966,
+        "budget" : "$3244.43",
+        "moviegenre" : "Comedy|Drama"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015b6"),
+        "movies" : "Runner Runner",
+        "productionyear" : 1994,
+        "budget" : "$4059.90",
+        "moviegenre" : "Crime|Drama|Thriller"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015b9"),
+        "movies" : "Thing from Another World, The",
+        "productionyear" : 1988,
+        "budget" : "$4586.47",
+        "moviegenre" : "Horror|Sci-Fi"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015bc"),
+        "movies" : "Wrong Guy, The",
+        "productionyear" : 2010,
+        "budget" : "$4310.42",
+        "moviegenre" : "Comedy|Romance|Thriller"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015cc"),
+        "movies" : "My Wife, A Body to Love",
+        "productionyear" : 2009,
+        "budget" : "$3551.53",
+        "moviegenre" : "(no genres listed)"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015cf"),
+        "movies" : "Diên Biên Phú",
+        "productionyear" : 1991,
+        "budget" : "$3690.81",
+        "moviegenre" : "Drama|War"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015d3"),
+        "movies" : "Possessed",
+        "productionyear" : 1990,
+        "budget" : "$2313.47",
+        "moviegenre" : "Drama|Romance"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015d9"),
+        "movies" : "Ant Bully, The",
+        "productionyear" : 2003,
+        "budget" : "$2692.04",
+        "moviegenre" : "Adventure|Animation|Children|Comedy|Fantasy|IMAX"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015df"),
+        "movies" : "How to Eat Fried Worms",
+        "productionyear" : 2001,
+        "budget" : "$4791.33",
+        "moviegenre" : "Children|Drama"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015e8"),
+        "movies" : "Ring, The",
+        "productionyear" : 2002,
+        "budget" : "$4181.39",
+        "moviegenre" : "Horror|Mystery|Thriller"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015e9"),
+        "movies" : "Passion of Darkly Noon, The",
+        "productionyear" : 2005,
+        "budget" : "$4895.56",
+        "moviegenre" : "Drama|Mystery|Thriller"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015ea"),
+        "movies" : "Crusades, The",
+        "productionyear" : 2009,
+        "budget" : "$2586.77",
+        "moviegenre" : "Adventure|Drama|War"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015ec"),
+        "movies" : "Company You Keep, The",
+        "productionyear" : 2006,
+        "budget" : "$4022.02",
+        "moviegenre" : "Thriller"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015ee"),
+        "movies" : "Verlorene, Der (Lost One, The)",
+        "productionyear" : 2013,
+        "budget" : "$3535.86",
+        "moviegenre" : "Crime|Drama|Thriller"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015f0"),
+        "movies" : "Getting Go, the Go Doc Project",
+        "productionyear" : 2009,
+        "budget" : "$3831.00",
+        "moviegenre" : "Drama"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015f2"),
+        "movies" : "Heir to an Execution",
+        "productionyear" : 1999,
+        "budget" : "$3492.36",
+        "moviegenre" : "Documentary"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015f4"),
+        "movies" : "Zombie Strippers!",
+        "productionyear" : 2000,
+        "budget" : "$2241.89",
+        "moviegenre" : "Comedy|Horror"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015f7"),
+        "movies" : "Lorna",
+        "productionyear" : 1993,
+        "budget" : "$4424.93",
+        "moviegenre" : "Drama"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015f9"),
+        "movies" : "Paradise: Love",
+        "productionyear" : 2005,
+        "budget" : "$4449.73",
+        "moviegenre" : "Drama"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015fb"),
+        "movies" : "How Green Was My Valley",
+        "productionyear" : 1999,
+        "budget" : "$4993.55",
+        "moviegenre" : "Drama|Musical|Romance"
+}
+Type "it" for more
+> db.movie_info.find().sort({productionyear:-1,moviename:-1}).skip(10).limit(5).pretty()
+> db.movie_info.find().sort({productionyear:-1,movies:-1}).skip(10).limit(5).pretty()
+> db.user.find().sort({productionyear:-1,movies:-1}).skip(10).limit(5).pretty()
+{
+        "_id" : ObjectId("62610ca85d56cfa92d001792"),
+        "movies" : "Someone Else's America",
+        "productionyear" : 2012,
+        "budget" : "$1544.53",
+        "moviegenre" : "Drama"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d00166f"),
+        "movies" : "Shaolin (Xin shao lin si)",
+        "productionyear" : 2012,
+        "budget" : "$3511.15",
+        "moviegenre" : "Action|Drama"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0015e5"),
+        "movies" : "Scorpio Rising",
+        "productionyear" : 2012,
+        "budget" : "$1603.76",
+        "moviegenre" : "(no genres listed)"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d001616"),
+        "movies" : "Place Called Chiapas, A",
+        "productionyear" : 2012,
+        "budget" : "$1147.82",
+        "moviegenre" : "Documentary"
+}
+{
+        "_id" : ObjectId("62610ca85d56cfa92d0016fc"),
+        "movies" : "Night the Lights Went Out in Georgia, The",
+        "productionyear" : 2012,
+        "budget" : "$5599.43",
+        "moviegenre" : "Drama"
+}
